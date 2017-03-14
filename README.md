@@ -14,8 +14,20 @@
 ### Installing/managing Ruby versions with rbenv
 
 - Run `ruby -v` to see what is your current version.
-- To list all your Ruby versions installed on your computer, run `rbenv versions`.
-- To install an new version, run `rbenv install 2.3.3` (2.3.3 is an example). **It doesn't change the current Ruby version yet!**
-- `rbenv global 2.3.3` globally changes the Ruby version and `rbenv local 2.3.3` changes the Ruby version of the current folder only.
+
+![Alt text](/screenshots/first-version.png)
+
+- To list all your Ruby versions installed on your computer, run `rbenv versions` (you shouldn't see all these versions).
+
+![Alt text](/screenshots/versions.png)
+
+- To install an new version, run `rbenv install 2.4.0` (2.4.0 is an example). **It doesn't change the current Ruby version yet!**
+- `rbenv global 2.4.0` globally changes the Ruby version and `rbenv local 2.4.0` changes the Ruby version of the current folder only.
 - Run `ruby rehash`.
-- `ruby -v` should print something like this: `ruby 2.3.3p222`.
+- `ruby -v` should print something like this:
+
+![Alt text](/screenshots/version.png)
+
+- Let's see what rbenv tells us:
+
+![Alt text](/screenshots/versions2.png)
