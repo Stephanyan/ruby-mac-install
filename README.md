@@ -1,17 +1,17 @@
 # Ruby installation guide for OSX
 
-> `This command need to be run in your terminal`.
-
 - Install the most recent version of [Xcode](https://itunes.apple.com/fr/app/xcode/id497799835?mt=12), available for your OSX version. Run `gcc -v` to check if everything went well (when it asks you to install XCode CommandLine Tools, do it).
 - Install [Homebrew](https://brew.sh/) package manager by running:
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.
+
 > If you don't have [Git](https://git-scm.com/), install it by running: `brew install git`. You will get asked to do so anyway.
+
 - Run `brew doctor` to check if anything is missing and then run `brew update`.
 - Run `brew install rbenv` and `brew install ruby-build`.
 - Add this line of code in your .bash_profile file (or .zshrc if you're using zsh): `eval "$(rbenv init -)"`.
 - Run `source ~/.bash_profile` (or `source ~/.zshrc`).
 
-### Installing/managing Ruby versions 
+### Installing/managing Ruby versions with rbenv
 
 - Run `ruby -v` to see what is your current version.
 - To list all your Ruby versions installed on your computer, run `rbenv versions`.
